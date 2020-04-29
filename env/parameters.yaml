@@ -1,0 +1,12 @@
+adminUser:
+  password: vault:hairsour/adminUser:password
+  username: admin
+dashboardUrl: https://dashboard.play-jxaas.live
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:hairsour/pipelineUser:token
+  username: cloudbees-ci-cd-play[bot]
+prow:
+  hmacToken: vault:hairsour/prow:hmacToken
+segmentWriteKey: vault:hairsour:segmentWriteKey
